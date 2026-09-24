@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "soundlist-export-button",
+      "name": "一键导出素材列表",
+      "version": "1.5.0",
+      "description": "在播放控制栏增加纯图标的「导出数据」按钮（悬停显示作用提示），并在素材列表右键菜单提供「导出素材列表数据（CSV）」：确认后导出为 CSV 表格并显示导出进度条。",
+      "author": "SFX Reactor AI",
+      "permissions": ["read_library", "file_system"],
+      "tags": ["export", "csv", "transport", "context-menu"],
+      "path": "plugins/soundlist-export-button/",
+      "files": ["script.js"]
+    }
+  ]
+}
