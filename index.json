@@ -10,7 +10,8 @@
       "permissions": ["read_library", "file_system"],
       "tags": ["export", "csv", "transport", "context-menu"],
       "path": "plugins/soundlist-export-button/",
-      "files": ["script.js"]
+      "files": ["script.js"],
+      "changelog": "更新按钮悬停提示功能冒烟专用版本。\n1. 市场索引新增 changelog 字段，悬停「更新」可见本说明；\n2. 插件本体无功能变化（仅版本号 +1 用于触发更新态）。"
     }
   ]
 }
