@@ -1,7 +1,7 @@
 const manifest = {
   id: "soundlist-export-button",
   name: "一键导出素材列表",
-  version: "1.5.1",
+  version: "1.5.2",
   author: "SFX Reactor AI",
   description:
     "在播放控制栏增加纯图标的「导出数据」按钮（悬停显示作用提示），并在素材列表右键菜单提供「导出素材列表数据（CSV）」：确认后导出为 CSV 表格并显示导出进度条。",
