@@ -7,11 +7,40 @@
       "version": "1.5.2",
       "description": "在播放控制栏增加纯图标的「导出数据」按钮（悬停显示作用提示），并在素材列表右键菜单提供「导出素材列表数据（CSV）」：确认后导出为 CSV 表格并显示导出进度条。",
       "author": "SFX Reactor AI",
-      "permissions": ["read_library", "file_system"],
-      "tags": ["export", "csv", "transport", "context-menu"],
+      "permissions": [
+        "read_library",
+        "file_system"
+      ],
+      "tags": [
+        "export",
+        "csv",
+        "transport",
+        "context-menu"
+      ],
       "path": "plugins/soundlist-export-button/",
-      "files": ["script.js"],
+      "files": [
+        "script.js"
+      ],
+      "minAppVersion": null,
       "changelog": "更新按钮悬停提示功能冒烟专用版本。\n1. 市场索引新增 changelog 字段，悬停「更新」可见本说明；\n2. 插件本体无功能变化（仅版本号 +1 用于触发更新态）。"
+    },
+    {
+      "id": "send-to-reaper-cursor",
+      "name": "发送到 REAPER 光标位置",
+      "version": "1.1.5",
+      "description": "在素材列表右键菜单增加「发送到 REAPER 光标位置」：把当前选中素材（支持多选）插入到 REAPER 当前编辑光标位置，逐条汇报成功/失败。支持本地素材、此电脑/收件箱等未入库文件（按路径直发）与 Freesound 在线素材（自动下载原始文件到缓存后插入，不入素材库）。",
+      "author": "发送到 REAPER 光标位置",
+      "permissions": [
+        "read_library",
+        "reaper_control"
+      ],
+      "tags": [],
+      "path": "plugins/send-to-reaper-cursor/",
+      "files": [
+        "script.js"
+      ],
+      "minAppVersion": null,
+      "changelog": null
     }
   ]
 }
